@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">OnlineStore</string>
+    <string name="navHome">Home</string>
+    <string name="navShop">Shop</string>
+    <string name="navMap">Map</string>
+    <string name="navCart">Cart</string>
+    <string name="navProfile">Profile</string>
+    <string name="profile">Profile</string>
+    <string name="map">Map</string>
+    <string name="home">Home</string>
+    <string name="cart">Cart</string>
+    <string name="store">Store</string>
+    <string name="best_prices">Best Prices</string>
+    <string name="laptops">Laptops</string>
+    <string name="accessories">Accessory</string>
+    <string name="best_items_at_cheapest_prices">Best Items at cheapest prices</string>
+    <string name="welcome">Welcome</string>
+    <string name="error_message_email">The form inserted is not supported</string>
+    <string name="error_message_name">The form inserted is not supported</string>
+    <string name="pc">PC</string>
+    <string name="google_maps_api_key">AIzaSyD1AwH81OZxr1OSKabtx2Wvwp6LvwIH1ns</string>
+</resources>

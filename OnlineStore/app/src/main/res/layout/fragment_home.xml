@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Home">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gray"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/black">
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="25dp"
+                    android:src="@drawable/launch">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Welcome"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="35dp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@drawable/keyboarding">
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+
+                <Button
+                    android:id="@+id/Visit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorYellow"
+                    android:padding="20dp"
+                    android:text="Visit our Website!"
+                    android:textAlignment="center"
+                    android:textSize="25sp"/>
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/black">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Best Items At cheapest prices"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="28dp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/Blue_700">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="3dp"
+                    android:src="@mipmap/razer4">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Durability"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/Orange_700">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/pc">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:text="The Quality"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/purple_500">
+
+                <ImageView
+                    android:layout_width="148dp"
+                    android:layout_height="148dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="3dp"
+                    android:src="@mipmap/lenovo3">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="30dp"
+                    android:text=" Performance"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="7dp"
+                android:background="@color/teal_700">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="3dp"
+                    android:src="@mipmap/asus3">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="30dp"
+                    android:text=" Best Prices"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                >
+                <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Shopnow"
+                android:text="Shop Now"
+                android:textSize="26sp"
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:background="@color/colorYellow">
+            </Button>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+</FrameLayout>

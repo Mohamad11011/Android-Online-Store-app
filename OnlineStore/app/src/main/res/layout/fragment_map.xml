@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Map1"
+    android:background="@color/black"
+    >
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Map" >
+
+    <RelativeLayout
+        android:id="@+id/Relative11"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/Mapimage"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="36dp"
+            android:src="@drawable/map">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/TextMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginBottom="25dp"
+            android:text="Store on Map"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </RelativeLayout>
+
+    <fragment
+        android:id="@+id/mapF"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="395dp"
+        android:layout_height="395dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Relative11"
+        app:layout_constraintVertical_bias="0.135">
+
+    </fragment>
+
+    <Switch
+        android:id="@+id/MapBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="25dp"
+        android:minHeight="48dp"
+        android:text="Show my location"
+        android:textColor="@color/black"
+        android:background="@color/colorYellow"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mapF"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="UseSwitchCompatOrMaterialXml">
+
+    </Switch>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    </FrameLayout>
